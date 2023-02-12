@@ -1,6 +1,5 @@
 package com.mbdev.bill.entity;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -32,7 +31,7 @@ public class Bill {
 
     private Boolean overdraftEnable;
 
-    public Bill(Long accountId, BigDecimal amount, Boolean isDefault, OffsetDateTime creationDate, Boolean overdraftEnable) {
+    public Bill(Long accountId, BigDecimal amount, Boolean isDefault, Boolean overdraftEnable) {
         this.accountId = accountId;
         this.amount = amount;
         this.isDefault = isDefault;
