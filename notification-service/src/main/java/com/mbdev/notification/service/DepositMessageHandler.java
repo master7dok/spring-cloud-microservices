@@ -30,7 +30,7 @@ public class DepositMessageHandler {
 
         SimpleMailMessage mailMessage = new SimpleMailMessage();
         mailMessage.setTo(depositResponseDTO.getMail());
-        mailMessage.setFrom("master7dok@gmail.com");
+        mailMessage.setFrom("masterdok.java1@gmail.com");
 
         mailMessage.setSubject("Deposit");
         mailMessage.setText("Make deposit, sum: " + depositResponseDTO.getAmount());

@@ -2,7 +2,7 @@ package com.mbdev.account.controller;
 
 import com.mbdev.account.controller.dto.AccountRequestDTO;
 import com.mbdev.account.controller.dto.AccountResponseDTO;
-import com.mbdev.account.controller.service.AccountService;
+import com.mbdev.account.service.AccountService;
 import com.mbdev.account.repository.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -32,7 +32,7 @@ public class AccountController {
     }
 
 
-    @PutMapping("/{accountId")
+    @PutMapping("/{accountId}")
     public AccountResponseDTO updateAccount(@PathVariable Long accountId, @RequestBody AccountRequestDTO accountRequestDTO){
        return new AccountResponseDTO(accountService.updateAccount(accountId,accountRequestDTO.getName(), accountRequestDTO.getEmail(),
                accountRequestDTO.getPhone(), accountRequestDTO.getBills()));

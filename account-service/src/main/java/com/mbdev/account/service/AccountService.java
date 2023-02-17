@@ -1,4 +1,4 @@
-package com.mbdev.account.controller.service;
+package com.mbdev.account.service;
 
 import com.mbdev.account.entity.Account;
 import com.mbdev.account.exceptions.AccountNotFoundException;
