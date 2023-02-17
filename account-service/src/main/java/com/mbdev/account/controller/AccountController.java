@@ -38,9 +38,9 @@ public class AccountController {
                accountRequestDTO.getPhone(), accountRequestDTO.getBills()));
     }
 
+
     @DeleteMapping("/{accountId")
     public AccountResponseDTO deleteAccount(@PathVariable Long accountId) {
-
         return new AccountResponseDTO(accountService.deleteAccount(accountId));
     }
 
