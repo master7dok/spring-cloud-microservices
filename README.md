@@ -1,4 +1,4 @@
-# spring-cloud-microservices
+# Spring-Cloud-Microservices-Online-Bank
 README
 
 Java Spring Hibernate Postgres Microservice Application with Config-Service, Registry, Account-Service, Bill-Service, Deposit-Service, Gateway, Notification-Service
