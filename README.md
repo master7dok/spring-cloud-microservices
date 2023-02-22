@@ -1,6 +1,6 @@
 # Spring-Cloud-Microservices-Online-Bank
 README
-![BankMicroservices.png](https://github.com/master7dok/spring-cloud-microservices/blob/master/BankMicroservices.png)
+
 Java Spring Hibernate Postgres Microservice Application with Config-Service, Registry, Account-Service, Bill-Service, Deposit-Service, Gateway, Notification-Service
 
 This application is designed to provide a microservice architecture that can be run locally using Docker. The services include:
@@ -42,3 +42,5 @@ In each service, there is a Dockerfile that specifies the container's configurat
 In addition, each service has a configuration script that runs on startup and checks the availability of the host and port using the "nc" command. If availability is confirmed, the command passed after "--" is executed. The script is named "wait-for.sh"
 
 For more information, please refer to the documentation in the respective service directories.
+  
+  ![BankMicroservices.png](https://github.com/master7dok/spring-cloud-microservices/blob/master/BankMicroservices.png)
