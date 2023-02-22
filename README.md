@@ -1,6 +1,6 @@
 # Spring-Cloud-Microservices-Online-Bank
 README
-
+![BankMicroservices.png](https://github.com/master7dok/spring-cloud-microservices/BankMicroservices.png.png)
 Java Spring Hibernate Postgres Microservice Application with Config-Service, Registry, Account-Service, Bill-Service, Deposit-Service, Gateway, Notification-Service
 
 This application is designed to provide a microservice architecture that can be run locally using Docker. The services include:
